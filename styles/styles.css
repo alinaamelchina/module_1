@@ -1,0 +1,318 @@
+html {
+    scroll-behavior: smooth;
+}
+body { 
+font-family: "Manrope", sans-serif;
+font-style: normal;
+width: 100%;
+background: #FFF;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1400px;
+    background: #FFF;
+    padding-left: 125px;
+    padding-right: 125px;
+
+}
+.container_logo {
+    width: 126.889px;
+    height: 21.42px;
+    flex-shrink: 0;
+    display: inline-block;
+    margin-top: 32.82px;
+    
+}
+.nav :last-child {
+    margin-right: 0;
+}
+.nav {
+    display: inline-block;
+    margin-top: 33px;
+    margin-left: 545px;
+    margin-bottom: 70px;
+    
+}
+.nav_link {
+    height: 25px;
+    color: #121212;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 60px;
+
+}
+.nav_link:hover {
+    opacity: 0.5;
+    border-bottom: 1px solid #000;
+    width: 51px;
+
+}
+h1 {
+    font-size: 60px;
+    color: #121212;
+    line-height: 60px;
+    letter-spacing: -1.8px;
+}
+.image1 {
+    width: 1150px;
+    height: 500px;
+    background-image: url(../resourses/image1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 30px;
+}
+.image1-text {
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    top: 379px;
+    width: 430px;
+    color: #FFF;
+    font-size: 20px;
+    line-height: normal;
+    letter-spacing: -0.6px;
+ 
+
+}
+.o_nas {
+    color: #121212;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    margin-top: 150px;
+}
+
+
+.o_nas_text {
+    color:#121212;
+    font-size: 45px;
+    line-height: normal;
+    letter-spacing: -1.35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.o_nas_s {
+    display: inline-flex;
+    padding: 20px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 5px;
+    background: var(--Accent, #AD1818);
+    color: #FFF;
+    text-decoration: none;
+}
+
+h3 {
+    margin-top: 150px;
+    color: #121212;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+}
+
+.image_project {
+    display: block;
+    width: 1150px;
+    height: 450px;
+    margin-top: 90px;
+}
+.project_one :first-child {
+    margin-top: 30px;
+}
+.project_name {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #121212;
+    font-size: 30px;
+    line-height: normal;
+    letter-spacing: -0.9px;
+}
+.project_s {
+    color: var(--Accent, #AD1818);
+    font-size: 20px;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    text-decoration: none;
+    background-color: #FFF;
+}
+.project_one_btn {
+    display: block;
+    margin-top: 90px;
+    margin-bottom: 150px;
+    padding: 0px;
+    width: 100%;
+    height: 153px;
+    border-radius: 5px;
+    border: 1px solid var(--Accent, #AD1818);
+    color: var(--Accent, #AD1818);
+    text-align: center;
+    font-size: 30px;
+    line-height: normal;
+    letter-spacing: -0.9px;
+    background-color: #FFF;
+    cursor: pointer;
+    
+}
+.project_one_btn:hover {
+    border: 1px solid var(--Accent, #AD1818);
+    background: var(--Accent, #AD1818);
+    color: #FFF;
+}
+
+.container_black {
+    margin-left: -125px;
+    width: 1400px;
+    height: 1844px;
+    background:#121212;
+    padding-top: 151px;
+
+}
+.services_s {
+    margin-left: 127px;
+    margin-bottom: 34px;
+    width: 66px;
+    color: #FFF;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+}
+.image_services {
+    width: 1150px;
+    height: 270px;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+.text_services :last-child {
+    margin-bottom: 0px;
+}
+.text_services {
+    margin-left: 128px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    width: 541px;
+    height: 41px;
+    color: #FFF;
+    font-size: 30px;
+    line-height: normal;
+    letter-spacing: -0.9px;
+    }
+   
+.image_last {
+    width: 1400px;
+    height: 717px; 
+    background-image: url(../resourses/image9.png);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: -125px;
+}
+.image10_text {
+    left: 125px;
+    top: 575px;
+    bottom: 60px;
+    position: absolute;
+    width: 443px;
+    color: #FFF;
+    font-size: 30px;
+    line-height: normal;
+    letter-spacing: -0.9px;
+}
+.contacts {
+    color: #121212;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+}
+.contacts::before {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url('../resourses/phone-iphone.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 150px;
+    margin-bottom: 12px;
+}
+.number {
+    color: #121212;
+    font-size: 60px;
+    line-height: 60px; /* 100% */
+    letter-spacing: -1.8px;
+    text-decoration: none;
+}
+.number:hover {
+    opacity: 0.5;
+    border-bottom: 2px solid #121212;
+}
+.number-phone {
+    margin-bottom: 30px;
+}
+.mail-name {
+    margin-bottom: 150px;
+}
+.mail {
+    color: #121212;
+    font-size: 60px;
+    line-height: 60px; /* 100% */
+    letter-spacing: -1.8px;
+    text-decoration: none;
+}
+.mail:hover {
+    opacity: 0.5;
+    border-bottom: 2px solid #121212;
+    width: 406px;
+}
+.container-contacts {
+    margin: 0 auto; 
+    width: 1400px;
+    background-color: #121212;
+    padding-left: 125px;
+    padding-right: 125px;
+    height: 229px;
+}
+.nav-footer {
+    display: inline-block;
+    margin-left: 345px;
+    margin-top: 60px;
+    margin-bottom: 87px;
+    
+}
+.nav_link_footer {
+    height: 25px;
+    color: #FFF;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 55px;
+}
+.container-contacts :nth-last-child(1) {
+    margin-right:0px;
+    }
+.nav_link:hover {
+    opacity: 0.5;
+    border-bottom: 1px solid #FFF;
+    width: 51px;
+}
+.name-text {
+    color: #FFF;
+    font-size: 20px;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    text-align: center;
+    margin-bottom: 30px;
+    opacity: 0.5;
+}
